@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&family=Roboto:ital,wght@0,100;0,900;1,700&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', monospace;
+}
+#header {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 10px;
+}
+.logo {
+	color: #f9faf8;
+	font-size: 24px;
+	font-weight: 900;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	gap: 20px;
+}
+a {
+	font-size: 18px;
+	color: #e5e7eb;
+	text-decoration: none;
+}
+
+#header, #link-one, #link-two, #link-three, #sign-up, footer {
+	padding-left: 200px;
+	padding-right: 200px;
+}
+#header, #link-one, footer {
+	background: #1f2937;
+}
+
+/*link-one section style**********/
+#link-one {
+	padding: 100px 200px;
+	font-size: 18px;
+	color: #e5e7eb;
+	display: flex;
+	gap: 50px;
+}
+.link-one-side, .img-placeholder {
+	flex: 1 1 0;
+}
+.link-one-header {
+	font-size: 48px;
+	font-weight: 900;
+	color: #f9faf8;
+}
+.sign-up-btn-first {
+	background: rgba(59, 130, 246, 1);
+	font-weight: 600;
+	color: #f9faf8;
+	padding: 5px 20px;
+	border: none;
+	border-radius: 5px;
+}
+.sign-up-btn-first:hover {
+	cursor: pointer;
+	background: rgba(59, 130, 246, 0.8);
+}
+.sign-up-btn-first:active{
+	background: rgba(59, 130, 246, 1);
+}
+.img-placeholder {
+	background: #6d747d;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
